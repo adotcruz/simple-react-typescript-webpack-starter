@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true,
+    "paths": {
+      // add aliases here so ts code can compile correctly
+    }
+  },
+  "include": ["./src/**/*", "typings"],
+  "exclude": ["node_modules", "dist"]
+}
